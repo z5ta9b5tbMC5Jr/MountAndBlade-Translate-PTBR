@@ -1,0 +1,27 @@
+# Dependências para o script de tradução Mount and Blade OTIMIZADO
+# Instalar com: pip install -r requirements.txt
+
+# Biblioteca principal para tradução
+googletrans==4.0.0rc1
+
+# Detecção automática de idioma
+langdetect==1.0.9
+
+# Requisições HTTP (dependência do googletrans)
+requests>=2.25.1
+
+# Barra de progresso avançada
+tqdm>=4.64.0
+
+# Bibliotecas padrão já incluídas no Python:
+# - os
+# - csv
+# - time
+# - pathlib
+# - typing
+# - logging
+# - threading
+# - concurrent.futures
+# - json
+# - hashlib
+# - queue
